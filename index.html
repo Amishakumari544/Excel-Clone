@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"
+    />
+    <title>pikachu - A simple and clean pikachu generator</title>
+    <meta name="description" content="A simple and clean pikachu generator" />
+    <link rel="canonical" href="https://.github.io/pikachu/" />
+    <link rel="icon" href="favicon.ico" />
+    <meta itemprop="name" content="pikachu" />
+    <meta
+      itemprop="description"
+      content="A simple and clean pikachu generator"
+    />
+    <meta itemprop="image" content="icons/icon-192x192.png" />
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- See https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="pikachu" />
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="white-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="pikachu" />
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="icons/icon-48x48.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="96x96" href="icons/icon-96x96.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icons/icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="icons/icon-192x192.png"
+    />
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="icons/icon-144x144.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="pikachu" />
+    <meta property="og:url" content="https://.github.io/pikachu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="pikachu" />
+    <meta
+      property="og:description"
+      content="A simple and clean pikachu generator"
+    />
+    <meta property="og:image" content="icons/icon-144x144.png" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta name="twitter:url" content="https://.github.io/pikachu" />
+    <meta name="twitter:title" content="pikachu" />
+    <meta
+      name="twitter:description"
+      content="A simple and clean pikachu generator"
+    />
+    <meta name="twitter:image" content="icons/icon-144x144.png" />
+    <!-- Web Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <script>
+     //pwa
+    </script>
+
+  
+  </head>
+  <body>
+    <main role="main" class="container">
+      <header>
+        <h2><a href="https://.github.io/pikachu">pikachu</a></h2>
+       <div class="app">
+           <div class="app-menu"><img src="/icons/save.svg" alt="" srcset=""></div>
+           <div class="app-menu"><img src="/icons/download.svg" alt="" srcset=""></div>
+           <div class="app-menu"><img src="/icons/add.svg" alt="" srcset=""></div>
+           <div class="app-menu"><img src="/icons/delete.svg" alt="" srcset=""></div>
+       </div>
+       <!-- //list container -->
+       <div class="img-container">
+        <div class="img-list-container">
+            <!-- dynamically -->
+            </div>
+        <div class="img-show-container">
+            <img src="/icons/left.svg" alt="" srcset="">
+            <!-- <img class="final-image"
+                src="https://images.unsplash.com/photo-1640622303392-7d2bee0c2438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt=""> -->
+           <img src="/icons/right.svg" alt="" srcset="">
+        </div>
+
+       <!-- <div id="colorBox">
+        <div id="colorWrap">
+            <div id="c0" class="ptColor" onclick="change(c0)"></div>
+            <div id="c1" class="ptColor" onclick="change(c1)"></div>
+            <div id="c2" class="ptColor" onclick="change(c2)"></div>
+            <div id="c3" class="ptColor" onclick="change(c3)"></div>
+            <div id="c4" class="ptColor" onclick="change(c4)"></div>
+            <div id="c5" class="ptColor" onclick="change(c5)"></div>
+            <div id="c6" class="ptColor" onclick="change(c6)"></div>
+            <div id="c7" class="ptColor" onclick="change(c7)"></div>
+            <div id="c8" class="ptColor" onclick="change(c8)"></div>
+            <div id="c9" class="ptColor" onclick="change(c9)"></div>
+            <!-- <div class="cp_wrapper">
+                <input class="ptColor" id="slColor" type="color" value="#ff6e6e" onchange="changeC()">
+            </div> end cp_wrapper -->
+            <button id="randomBtn" onclick="randomColor()">Random</button>
+        <!-- </div>
+        <div id="gradientWrap">
+            <div id="g1" class="ptColor" onclick="changeG(g1)"></div>
+            <div id="g2" class="ptColor" onclick="changeG(g2)"></div>
+            <div id="g3" class="ptColor" onclick="changeG(g3)"></div>
+            <div id="g4" class="ptColor" onclick="changeG(g4)"></div>
+            <div id="g5" class="ptColor" onclick="changeG(g5)"></div>
+            <div id="g6" class="ptColor" onclick="changeG(g6)"></div>
+            <div id="g7" class="ptColor" onclick="changeG(g7)"></div>
+            <div id="g8" class="ptColor" onclick="changeG(g8)"></div>
+            <div id="g9" class="ptColor" onclick="changeG(g9)"></div>
+            <div id="g10" class="ptColor" onclick="changeG(g10)"></div>
+            <div id="g11" class="ptColor" onclick="changeG(g11)"></div>
+
+        </div>
+    </div> end colorBox --> -->
+   
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
+  
